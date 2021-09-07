@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /*background: #b9e1f8;*/
+    background: #A8D0E6;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    background-color: #FDFDFD;
+}
+
+.box{
+    width: 700px;
+    background: #FDFDFD;
+    padding: 40px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-links a:hover{
+    border-bottom: 4px solid #374785;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.menu li{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.burger{
+    display: none;
+}
+
+/* .burger is for mobile view */
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin : 5px;
+}
+
+.button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #808080;
+    padding: 8px; 
+    text-decoration: none;
+}
+
+.profpic{
+    display: block;
+    margin: 0 auto;
+    padding-top: 2em;
+    object-fit: cover;
+    height: 100%;
+}
+
+.title{
+    position: relative;
+    text-align: center; 
+}
+
+.typewriter{
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #007bb5; }
+  }
+
+.subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.about{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.about a{
+    text-decoration: none;
+    color: #007bb5;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.about a:hover{
+    /* border-bottom: 1px solid #007bb5;*/
+    border-bottom: 1px solid #374785;
+}
+
+.project-entry{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2em;
+}
+
+.project-entry p{
+    font-size: 16px;
+}
+
+.project-tags{
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #F76C6C;
+}
+
+.project-entry a{
+    text-decoration: none;
+    color: #007bb5;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.project-entry a:hover{
+    /* border-bottom: 1px solid #007bb5;*/
+    border-bottom: 1px solid #374785;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1em;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area{
+    min-height: 150px;
+}
+
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #F76C6C;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+
+.footer-description{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    /* color: #FDFDFD; */
+    color:#24305e;
+}
+
+.footer li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.footer ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer ul li{
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.footer ul li a{
+    /* color:#FDFDFD; */
+    color:#24305e;
+    font-size: 25px;
+}
+
+.social-menu li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul{
+    position: absolute;
+    left: 50%;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-menu ul li .fa:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0, -10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #007bb6;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #9932CC;
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

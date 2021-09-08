@@ -15,7 +15,7 @@ h2{
 }
 
 body{
-    background: #4DBE60;
+    background: #5CDB95;
 }
 
 nav{
@@ -25,12 +25,12 @@ nav{
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
-    background-color: #E2E4E7;
+    background-color: #EDF5E1;
 }
 
 .box{
     width: 700px;
-    background: #E2E4E7;
+    background: #EDF5E1;
     padding: 40px;
     margin: auto;
     margin-top: 5%;

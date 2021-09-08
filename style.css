@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -9,6 +9,7 @@ h1{
     font-family: 'Oswald', sans-serif;
     font-size: 200px;
     color: #66FCF1;
+    text-align: right;
 }
 
 body{
@@ -29,7 +30,7 @@ nav{
     background-color: #0B0C10;
 }
 
-.box{
+/* .box{
     width: 700px;
     background: #0B0C10;
     padding: 40px;
@@ -37,7 +38,7 @@ nav{
     margin-top: 5%;
     text-align: center;
     border-radius: 10px;
-}
+} */
 
 .center-text{
     text-align: center;
@@ -101,6 +102,8 @@ nav{
     padding-top: 2em;
     object-fit: cover;
     height: 100%;
+    position: left;
+    border-radius: 50%;
 }
 
 .title{
@@ -145,6 +148,7 @@ nav{
     margin: 0 auto;
     width: 600px;
     color: white;
+    text-align: right;
 }
 
 .about a{

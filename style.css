@@ -12,7 +12,11 @@ h1{
 }
 
 body{
-    background: #0B0C10;
+/*     background: #0B0C10; */
+    background-image: url("dark_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: fill;
+    background-attachment: fixed;
 }
 
 nav{

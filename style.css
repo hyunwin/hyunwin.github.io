@@ -7,12 +7,12 @@
 
 h1{
     font-family: 'Major Mono Display', monospace;
-    font-size: 36px;
-    color: white;
+    font-size: 50px;
+    color: #66FCF1;
 }
 
 body{
-    background: #2F2FA2;
+    background: #0B0C10;
 }
 
 nav{
@@ -20,14 +20,14 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 24px;
-    background-color: #2F2FA2;
+    background-color: #0B0C10;
 }
 
 .box{
     width: 700px;
-    background: #2F2FA2;
+    background: #0B0C10;
     padding: 40px;
     margin: auto;
     margin-top: 5%;

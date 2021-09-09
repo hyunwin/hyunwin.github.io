@@ -9,7 +9,6 @@ h1{
     font-family: 'Oswald', sans-serif;
     font-size: 200px;
     color: #66FCF1;
-    text-align: right;
 }
 
 body{
@@ -148,7 +147,6 @@ nav{
     margin: 0 auto;
     width: 600px;
     color: white;
-    text-align: right;
 }
 
 .about a{
